@@ -1,4 +1,4 @@
-# Udemy Tinder
+# Udemy Books
 
 Coursework for Udemy class [Modern React with Redux](https://www.udemy.com/react-redux/)
 
