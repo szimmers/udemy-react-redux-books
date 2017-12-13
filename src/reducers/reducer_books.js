@@ -1,4 +1,9 @@
-export default function() {
+export default function(state, action) {
+	/*
+	console.log('---------------');
+	console.log('action: ', action);
+	console.log('state: ', state);
+	*/
 	return [
 		{title: 'Javascript: The Good Parts'},
 		{title: 'Harry Potter'},
