@@ -4,6 +4,10 @@ import {connect} from 'react-redux';
 
 import {selectBook} from '../actions/index';
 
+/**
+ * displays the collection of books. knows enough to get the books from redux
+ * and to dispatch any selected book.
+ */
 class BookList extends Component {
 	renderList() {
 		return this.props.books.map(book => {
