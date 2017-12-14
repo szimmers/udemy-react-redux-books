@@ -47,7 +47,7 @@ function mapStateToProps(state) {
  * @returns {{selectBook: selectBook}|ActionCreator<any>|ActionCreatorsMapObject}
  */
 function matchDispatchToProps(dispatch) {
-	// whenever selectBook is called, pass result all our reducers
+	// whenever selectBook is called, pass result to all our reducers
 	return bindActionCreators({selectBook: selectBook}, dispatch);
 }
 
